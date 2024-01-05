@@ -1,0 +1,69 @@
+.form{
+    border:1px solid white;
+    height: 650px;
+    width: 300px;
+    border-radius: 20px;
+    position: relative;
+    top:50px;
+    left:350px;
+    backdrop-filter: blur(5px);
+    box-shadow: 6px 6px 6px 6px black;
+}
+.form1{
+    border:1px solid white;
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+    position: relative;
+    top:50px;
+    left:350px;
+    backdrop-filter: blur(5px);
+    box-shadow: 6px 6px 6px 6px black;
+}
+input[type=text],input[type=email],input[type=number],input[type=password]
+{
+    padding: 10px;
+    background-color: black;
+    position: relative;
+    left:10px;
+    color: white;
+}
+h3{
+    color: white;
+    position: relative;
+    left:10px;
+    text-shadow: 1px 2px red;
+}
+#eyes{
+    cursor: pointer;
+    font-size: 20px;
+    color: black;
+    position: relative;
+    top:-30px;
+    left:175px;
+}
+#show{
+    position: relative;
+    left:130px;
+    color: white;
+}
+#genders {
+    display: flex;
+    gap: 5px; 
+  }
+  #genders input,
+  #genders #ss {
+    margin-right: 5px;
+    color: white; 
+  } 
+  #log{
+    color: white;
+    text-shadow: 3px 1px green;
+  } 
+  #rrr{
+    position: relative;
+    left:220px;
+    top:-45px;
+    font-weight: bold;
+    font-size: 20px;
+  }
